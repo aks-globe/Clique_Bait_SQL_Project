@@ -1,5 +1,5 @@
 # Clique_Bait_SQL_Project
-This is my 8 week Sql Challenge Project Clique-Bait
+This is my 8-week Sql Challenge Project Clique-Bait
 
 # Introduction:
 Clique Bait, founded by Danny, is an innovative online seafood store aiming to provide a seamless and enjoyable experience for seafood enthusiasts. As the founder and CEO, Danny recognizes the importance of leveraging data analysis to gain insights into the digital engagement, user behaviour, and overall performance of Clique Bait. This case study focuses on harnessing the power of data to analyse the dataset and devise innovative solutions, with a particular emphasis on calculating funnel fallout rates for the online store.
@@ -10,12 +10,13 @@ The primary objective of this analysis is to understand the dynamics of user int
 # Tables used:
 Five tables used in this case study.
 
-Users: Customers(user_id) who visit the Clique Bait website are tagged via their cookie_id.
-Events: Customer visits are logged in this events table at a cookie_id level and the event_type and page_id values can be used to join onto relevant satellite tables to obtain further information about each event.
-Page Hierarchy: This table lists all of the pages on the Clique Bait website which are tagged and have data passing through from user interaction events.
-Event Identifier: The event_identifier table shows the types of events which are captured by Clique Bait’s digital data systems.
-Campaign Identifier: This table shows information for the 3 campaigns that Clique Bait has ran on their website so far.
-ER Diagram:
+- Users: Customers(user_id) who visit the Clique Bait website are tagged via their cookie_id.
+- Events: Customer visits are logged in this events table at a cookie_id level and the event_type and page_id values can be used to join onto relevant satellite tables to obtain further information about each event.
+- Page Hierarchy: This table lists all of the pages on the Clique Bait website which are tagged and have data passing through from user interaction events.
+- Event Identifier: The event_identifier table shows the types of events which are captured by Clique Bait’s digital data systems.
+-Campaign Identifier: This table shows information for the 3 campaigns that Clique Bait has ran on their website so far.
+
+# ER Diagram:
 CliqueBait_ERDiagram
 
 # Problem Statements:
