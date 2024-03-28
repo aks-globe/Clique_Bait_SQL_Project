@@ -17,7 +17,10 @@ Five tables used in this case study.
 -Campaign Identifier: This table shows information for the 3 campaigns that Clique Bait has ran on their website so far.
 
 # ER Diagram:
-CliqueBait_ERDiagram
+
+![image](https://github.com/aks-globe/Clique_Bait_SQL_Project/assets/118913015/27a2d3f2-2034-4fe3-adb2-d273e25503dd)
+
+
 
 # Problem Statements:
 1. Your task is to determine the number of unique users who accessed the website.
